@@ -84,6 +84,7 @@ nav {
   background-color: white;
   max-height: 80px;
   z-index: 999;
+  transition: 0.1s;
 }
 
 nav .right-nav {
@@ -175,7 +176,7 @@ header h2 {
 header p {
   font-size: 1.1rem;
   line-height: 1.7rem;
-  margin-bottom: 40px;
+  margin-bottom: 16px;
 }
 
 header > div > div > div:last-child {
@@ -186,12 +187,13 @@ header button {
   width: 235px;
   height: 54px;
   font-size: 1.2rem;
+  margin-top: 8px;
 }
 
 /* new section */
 
 #new {
-  margin-top: 15%;
+  margin-top: 100px;
   margin-bottom: 100px;
 }
 
@@ -320,17 +322,17 @@ header button {
 }
 #third h2 {
   color: #5eaee0;
-  font-size: 3rem;
 }
 
 /* fourth section */
 
 #fourth {
-  margin-top: 110px;
+  margin-top: 36px;
 }
 
 #fourth .container > .row {
-  margin-bottom: 50px;
+  margin-bottom: 56px;
+  margin-top: 40px;
 }
 
 #fourth .container > h2 {
@@ -379,6 +381,9 @@ header button {
 
 #fourth > div > div > div > img {
   width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 16px;
 }
 
 #fourth > .container > div:last-child {
@@ -419,8 +424,11 @@ header button {
 
 /* fifth */
 
+#fifth {
+  margin-top: 64px;
+}
+
 #fifth h2 {
-  margin-top: 1%;
   max-width: 500px;
   width: 98%;
   padding: 0 40px;
@@ -458,7 +466,9 @@ header button {
 }
 
 #fifth .container {
-  padding: 80px 110px;
+  padding: 0 110px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 #fifth .greenLink {
@@ -466,10 +476,14 @@ header button {
 }
 
 /* SIXTH */
+#six .graybg {
+  padding-top: 104px;
+  padding-bottom: 88px;
+}
 
 #six .graybg .row > div {
-  margin-bottom: 40px;
-  padding-bottom: 40px;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
 }
 
 .lines {
@@ -486,9 +500,11 @@ header button {
 #seven .container {
   display: flex;
   flex-direction: column;
-  min-height: 350px;
   justify-content: center;
   align-items: center;
+
+  padding-top: 96px;
+  padding-bottom: 104px;
 }
 
 #seven .container > .row:last-child {
@@ -527,8 +543,8 @@ footer .container .row > div {
 }
 
 footer .container {
-  padding-top: 8%;
-  padding-bottom: 8%;
+  padding-top: 96px;
+  padding-bottom: 80px;
 }
 
 footer {
@@ -733,6 +749,17 @@ footer form {
   #second .avatar {
     display: block;
   }
+  #third h2 {
+    font-size: 2rem;
+  }
+
+  #third h2 {
+    font-size: 2.2rem;
+  }
+
+  #fourth .container > h2 {
+    font-size: 2.2rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -756,6 +783,9 @@ footer form {
     width: 590px;
     height: 570px;
     justify-self: right;
+  }
+  #third h2 {
+    font-size: 3rem;
   }
 }
 
