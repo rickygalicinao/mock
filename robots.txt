@@ -1,0 +1,8 @@
+#This is not an official website nor for sale.
+
+#It was created for practice and learning purposes only.
+#The logo and the images are came from the official website just to make this clone realistic.
+
+#Code to not allow any search engines!
+User-agent: *
+Disallow: /
